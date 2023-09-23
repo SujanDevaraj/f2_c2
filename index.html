@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Your HTML content will go here -->
+    <div class="student_portal">Student Portal</div>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search">
+        <button id="search-button">Search</button>
+    </div>
+    <div class="button-container">
+        <button class="sort-button" data-sort="AtoZ">Sort A->Z</button>
+        <button class="sort-button" data-sort="ZtoA">Sort Z->A</button>
+        <button class="sort-button" data-sort="byMarks">Sort by Marks</button>
+        <button class="sort-button" data-sort="byPassing">Sort by Passing</button>
+        <button class="sort-button" data-sort="byClass">Sort by Class</button>
+        <button id="sort-by-gender">Sort by Gender</button>
+    </div>
+    <div id="results">
+        <!-- Results will be displayed here -->
+    </div>
+    <table id="student-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Class</th>
+                <th>Marks</th>
+                <th>Passing</th>
+                <th>Email</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be populated dynamically using JavaScript -->
+        </tbody>
+    </table>
+
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
